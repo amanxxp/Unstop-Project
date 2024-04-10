@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  overflow-x: hidden;
+  background: linear-gradient(to right, white, #fee55b);
+}
+.navbar {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  box-shadow: 0 1px 4px #00000037;
+  background-color: white;
+}
+.left {
+  flex: 2;
+}
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 8px 22px 8px 8px;
+}
+.a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+  padding-right: 32px;
+  color: black;
+  transition: font-weight 0.5s, font-size 0.5s ease-in;
+}
+.a:hover {
+  text-decoration: dotted;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* contact hero */
+
+.conHero {
+    align-items: center;
+    background-size: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+}
+.back {
+    /* background: #ffd24d; */
+  background: linear-gradient(to left, #fee55b, #ffd24d);
+    height: 560px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    z-index: -3;
+}
+.contHead {
+    color: #222;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 76px;
+    text-align: center;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.ContactCard {
+    background: #222;
+    border-radius: 12px;
+    margin: 14px;
+    min-width: 80vw;
+    padding: 22px;
+    text-align: center;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.ContactCardHead {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 76px;
+    margin: 12px;
+    padding: 0;
+    text-align: center;
+}
+.contactSubTitle {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.cardForm {
+    display: flex;
+}
+.formLeft {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    padding: 22px;
+    flex: 1.8 1;
+}
+.formLeft input, .formLeft textarea {
+    border-radius: 12px;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 8px;
+    outline: none;
+}
+.formLeft input {
+    line-height: 46px;
+    padding: 2px 12px;
+}
+.formRight {
+    flex: 1 1;
+}
+.formSubmit {
+    background: #f9c83a;
+    border-radius: 36px;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 18px 36px;
+    text-align: center;
+}
+/* CONTACT SECTION */
+
+.ContactSec {
+    /* background: #ffd24d; */
+    background: linear-gradient(to left, #fee55b, #ffd24d);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont1,.cont2{
+    display: flex;
+    font-weight: 700;   
+    align-items: center;
+}
+.contl{
+    display: flex;
+    align-items: center;
+    
+}
+.cont1>a,.cont2>a{
+    text-decoration: none;
+    color: black;
+}
+.contl>img{
+    height: 32px;
+    padding: 12px;
+    width: 32px;
+}
+
+
+
+/* Footer */
+
+.f,
+.f1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.f {
+  background: #222;
+  color: #fff;
+}
+.f2 {
+  font-size: 23px;
+}
+.f2 > a {
+  margin: 1em;
+}
+.st {
+    font-size:25px;
+    font-weight: 600;
+}
+.f3 {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
